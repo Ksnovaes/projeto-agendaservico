@@ -12,7 +12,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Service {
+public class ServiceManagement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;

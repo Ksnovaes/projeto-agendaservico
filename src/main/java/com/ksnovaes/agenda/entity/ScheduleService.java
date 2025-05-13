@@ -29,7 +29,7 @@ public class ScheduleService {
 
     @ManyToOne
     @JoinColumn(name = "service_id")
-    private Service service;
+    private ServiceManagement serviceManagement;
 
     @FutureOrPresent
     private LocalDateTime scheduled_date;

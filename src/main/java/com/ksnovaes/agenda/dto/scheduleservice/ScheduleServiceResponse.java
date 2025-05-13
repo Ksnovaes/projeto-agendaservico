@@ -4,7 +4,7 @@ import com.ksnovaes.agenda.enums.ScheduleStatus;
 
 import java.time.LocalDateTime;
 
-public record ScheduleServiceResponse(
+public record  ScheduleServiceResponse(
         int id,
         String customerName,
         String technicianName,
